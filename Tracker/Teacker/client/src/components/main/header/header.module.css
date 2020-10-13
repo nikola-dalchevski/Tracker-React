@@ -1,0 +1,21 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  flex: 0.1;
+  min-height: 52px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.LeftItems {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 100;
+  align-items: center;
+}
+
+.Icon {
+  padding-right: 10px;
+}

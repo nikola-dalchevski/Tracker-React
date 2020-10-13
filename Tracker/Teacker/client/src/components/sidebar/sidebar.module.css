@@ -1,0 +1,57 @@
+.Sidebar {
+  background-color: #212120;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: width 0.5s;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Sidebar * {
+  text-decoration: none;
+  color: white;
+}
+
+.Title {
+  width: 230px;
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+  min-height: 53px;
+}
+
+.Title span {
+  padding-left: 10px;
+}
+.NavLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+}
+.NavLinks span {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.NavLinks * {
+  flex: 0.15;
+}
+.Icon * {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.NavLink:hover * {
+  color: white;
+}
+
+.active {
+  color: #007bff;
+}

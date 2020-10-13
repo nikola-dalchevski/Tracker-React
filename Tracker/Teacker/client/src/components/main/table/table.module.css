@@ -1,0 +1,45 @@
+.Table {
+  width: 95%;
+  background-color: white;
+  padding: 0;
+}
+
+.Table > tr > td {
+  text-align: center;
+  border-top: 1px solid darkgray;
+  padding: 20px;
+}
+
+.Table > tr > th {
+  color: darkgray;
+}
+
+caption {
+  background-color: white;
+  text-align: left;
+  padding: 10px 0 20px 10px;
+}
+
+.Edit {
+  cursor: pointer;
+}
+
+caption > span {
+  margin-right: 10px;
+  float: right;
+  border: 3px solid yellowgreen;
+  width: 40px;
+  height: 25px;
+  line-height: 24px;
+  text-align: center;
+  color: yellowgreen;
+  font-weight: 500;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+caption > span:hover {
+  background-color: yellowgreen;
+  color: white;
+  cursor: pointer;
+}

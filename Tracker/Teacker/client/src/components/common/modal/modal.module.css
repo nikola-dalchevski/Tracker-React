@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 1000;
+  justify-self: center;
+  width: 80%;
+}
